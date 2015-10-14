@@ -24,6 +24,7 @@
         <activity
             android:name=".create_olderActivity"
             android:label="@string/create_older"
+            
             android:screenOrientation="portrait" />
     </application>
 

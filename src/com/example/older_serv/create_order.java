@@ -48,7 +48,7 @@ public class create_order extends Activity{
 	
 	//LiteHttp liteHttp = LiteHttp.newApacheHttpClient(null);
 	
-	String BASE_URL = "http://1.sitetest.sinaapp.com/create_order.php",url1;
+	String BASE_URL = "http://1.sitetest.sinaapp.com/create_order.php";
 protected void onCreate(Bundle savedInstanceState) {
 		
 	
