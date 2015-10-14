@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_order"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".create_order" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp" >
+        
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/textView_long"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:text="工作时长" />
+
+        <EditText
+            android:id="@+id/editText_long"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="numberDecimal"
+             />
+       
+    </TableRow>
+<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        
+        android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/textView_things"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:text="需完成事情" />
+
+        <EditText
+            android:id="@+id/editText_things"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+       
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/textView_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:text="费用" />
+
+        <EditText
+            android:id="@+id/editText_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            
+            
+            android:ems="10"
+            android:inputType="number" />
+       
+    </TableRow>
+<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/textView_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:text="位置" />
+
+        <Button
+            android:id="@+id/btn2map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地图获取" />
+       
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1.0" >
+
+        <TextView
+            android:id="@+id/textView_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:text="备注" />
+
+        <EditText
+            android:id="@+id/editText_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="提交" />
+
+       </TableRow>
+       
+    </TableLayout>
+
+    
+    
+   
+
+</LinearLayout>

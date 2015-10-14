@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">older_serv</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="back">返回</string>
+    <string name="username">用户名</string>
+    <string name="pwd">密码</string>
+    <string name="TextView_long">工作时长</string>
+    <string name="create_older">老人注册</string>
+    
+</resources>
